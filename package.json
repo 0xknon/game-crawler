@@ -1,0 +1,29 @@
+{
+	"name": "HorseRacing",
+	"version": "1.0.0",
+	"description": "Extract Jockey Club Database",
+	"main": "index.js",
+	"author": "Matthew",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"start:dev": "nodemon index.js"
+	},
+	"dependencies": {
+		"aws-sdk": "^2.149.0",
+		"babel-core": "^6.25.0",
+		"babel-polyfill": "^6.23.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-es2016": "^6.24.1",
+		"babel-preset-stage-3": "^6.24.1",
+		"body-parser": "^1.18.1",
+		"cheerio": "^1.0.0-rc.2",
+		"express": "^4.15.4",
+		"http": "^0.0.0",
+		"iconv-lite": "^0.4.18",
+		"nodemon": "^1.12.1",
+		"request": "^2.81.0",
+		"request-promise": "^4.2.2"
+	}
+}
